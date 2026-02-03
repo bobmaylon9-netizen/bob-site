@@ -1,6 +1,6 @@
 import OpenAI from "openai";
 
-export const runtime = "nodejs"; // <<< ISSO RESOLVE TUDO
+export const runtime = "nodejs"; 
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
