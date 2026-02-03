@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atacadista de Defensivos Agrícolas | Alta Performance no Agro</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --verde-escuro: #0f2e1d;
+      --verde-medio: #1f4f34;
+      --dourado: #c9a24d;
+      --preto: #0b0b0b;
+      --cinza: #f4f4f4;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--cinza);
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('https://images.unsplash.com/photo-1598514982558-6c0d7cdb29a6') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      color: var(--dourado);
+      margin-bottom: 20px;
+    }
+
+    header p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      margin: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 40px;
+      background-color: var(--dourado);
+      color: var(--preto);
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 50px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #b18b3c;
+    }
+
+    section {
+      padding: 80px 10%;
+      background-color: #fff;
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: var(--verde-escuro);
+    }
+
+    .sobre p {
+      max-width: 900px;
+      font-size: 1.1rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background-color: var(--cinza);
+      padding: 40px;
+      border-radius: 20px;
+      transition: 0.3s;
+      border-left: 6px solid var(--dourado);
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      color: var(--verde-medio);
+    }
+
+    .regulacao {
+      background-color: var(--verde-escuro);
+      color: #fff;
+    }
+
+    .regulacao h2 {
+      color: var(--dourado);
+    }
+
+    footer {
+      background-color: var(--preto);
+      color: #aaa;
+      text-align: center;
+      padding: 40px 10%;
+    }
+
+    footer span {
+      color: var(--dourado);
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Excelência em Defensivos Agrícolas</h1>
+    <p>
+      Atuação atacadista com foco em performance, segurança, conformidade legal e
+      soluções estratégicas para o agronegócio brasileiro.
+    </p>
+    <a href="#contato" class="btn">Fale com um Consultor</a>
+  </div>
+</header>
+
+<section class="sobre">
+  <h2>Quem Somos</h2>
+  <p>
+    Somos uma empresa especializada no <strong>comércio atacadista de defensivos agrícolas</strong>,
+    atuando com responsabilidade técnica, logística estruturada e total conformidade
+    com a legislação vigente.
+    Trabalhamos exclusivamente com revendedores, cooperativas e grandes operações agrícolas.
+  </p>
+</section>
+
+<section>
+  <h2>Nossos Produtos</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Inseticidas</h3>
+      <p>Controle eficiente de pragas com alta tecnologia e segurança agronômica.</p>
+    </div>
+
+    <div class="card">
+      <h3>Herbicidas</h3>
+      <p>Soluções modernas para manejo de plantas daninhas e aumento da produtividade.</p>
+    </div>
+
+    <div class="card">
+      <h3>Fungicidas</h3>
+      <p>Proteção avançada contra doenças fúngicas em diversas culturas.</p>
+    </div>
+
+    <div class="card">
+      <h3>Outros Defensivos</h3>
+      <p>Acaricidas, nematicidas e soluções específicas conforme necessidade técnica.</p>
+    </div>
+  </div>
+</section>
+
+<section class="regulacao">
+  <h2>Conformidade & Segurança</h2>
+  <p>
+    Atuamos rigorosamente conforme as exigências do <strong>MAPA</strong>, órgãos ambientais
+    e legislações estaduais e federais.
+    Contamos com responsável técnico habilitado, controle de estoque,
+    armazenamento adequado e logística segura.
+  </p>
+</section>
+
+<section id="contato">
+  <h2>Contato Comercial</h2>
+  <p>
+    Entre em contato para parcerias comerciais, distribuição e fornecimento em escala.
+  </p>
+
+  <a class="btn" href="https://wa.me/5599999999999" target="_blank">
+    Atendimento via WhatsApp
+  </a>
+</section>
+
+<footer>
+  <p>
+    © 2026 <span>Sua Empresa Atacadista</span> • Defensivos Agrícolas • Todos os direitos reservados
+  </p>
+</footer>
+
+</body>
+</html>
